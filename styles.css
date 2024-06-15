@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('background.png') no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#semaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 250px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10%;
+}
+
+#semaforo img {
+    width: 100%;
+    height: auto;
+}
+
+#car {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 150px;
+    height: auto;
+}
